@@ -1,6 +1,6 @@
 #create a bsic github action to use the github action Mukund-Tandon/Hashnode-Blog-Manger/.github/workflows/main.yaml
 
-name: "Hashnode Blog Manager"
+name: "Hashnode Blog Manager test"
 on:
   push:
     branches:
