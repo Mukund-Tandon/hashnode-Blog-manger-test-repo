@@ -18,3 +18,6 @@ jobs:
 
           - name: Run Hashnode Blog Manager
             uses: Mukund-Tandon/Hashnode-Blog-Manger/.github/actions/action.yaml@main
+            with:
+              blog_path: "blogs"
+              hashnode_access_token: ${{ secrets.HASHNODE_TOKEN }}
