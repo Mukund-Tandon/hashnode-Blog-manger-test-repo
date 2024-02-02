@@ -17,7 +17,7 @@ jobs:
               fetch-depth: 0
 
           - name: Run Hashnode Blog Manager
-            uses: Mukund-Tandon/Hashnode-Blog-Manger/.github/actions/action.yaml@main
+            uses: Mukund-Tandon/Hashnode-Blog-Manger/.github/actions/action.yaml
             with:
               blog_path: "blogs"
               hashnode_access_token: ${{ secrets.HASHNODE_TOKEN }}
