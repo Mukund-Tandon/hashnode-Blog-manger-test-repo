@@ -1,0 +1,9 @@
+{
+    "title": "# comp String!",
+    "subtittle": "#comp String",
+    "publicationId": "#comp String!",
+    "tags":  [
+        {"slug": "tag1-slug", "name": "Tag 1"},
+        {"slug": "tag2-slug", "name": "Tag 2"}
+    ]
+  }

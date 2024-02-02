@@ -1,0 +1,20 @@
+#create a bsic github action to use the github action Mukund-Tandon/Hashnode-Blog-Manger/.github/workflows/main.yaml
+
+name: "Hashnode Blog Manager"
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    dostuff:
+      runs-on: ubuntu-latest
+
+      steps:
+          - name: Checkout repository
+            uses: actions/checkout@v4
+            with:
+              fetch-depth: 0
+
+          - name: Run Hashnode Blog Manager
+            uses: Mukund-Tandon/Hashnode-Blog-Manger/.github/actions/action.yaml@main
