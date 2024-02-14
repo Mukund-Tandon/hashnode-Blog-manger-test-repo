@@ -17,6 +17,7 @@ jobs:
               blog_path: "blogs"
               hashnode_access_token: ${{ secrets.HASHNODE_TOKEN }}
               publication_id: ${{ secrets.PUBLICATION_ID }}
+              github_api_token: ${{ secrets.API_GITHUB_TOKEN }}
 
     
             
