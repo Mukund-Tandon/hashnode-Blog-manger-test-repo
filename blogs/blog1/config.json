@@ -1,7 +1,6 @@
 {
     "title": "title  d",
     "subtittle": "#dfdd String",
-    "publicationId": "#comp String!",
     "tags":  [
         {"slug": "tag1-slug", "name": "Tag 1"},
         {"slug": "tag2-slug", "name": "Tag 2"}
