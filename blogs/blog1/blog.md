@@ -1,4 +1,4 @@
-## est Setup
+## Test Setup
 
 To properly evaluate our log ingestor's performance, I've created a test environment that simulates high-volume log production. This setup allows us to measure throughput, latency, and resource utilization under various loads.
 
